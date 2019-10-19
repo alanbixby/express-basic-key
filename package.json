@@ -1,0 +1,20 @@
+{
+  "name": "api-token_glitch",
+  "version": "1.0.0",
+  "description": "A service to serve a ROBLOX module script ID.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Alan Bixby <alanrbixby@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.21.1",
+    "morgan": "^1.9.1"
+  }
+}
